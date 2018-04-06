@@ -1,6 +1,6 @@
 ICA4
 
-Topic: Billboard Top 100
+Topic#1: Billboard Top 100
 
 ##Question #1
 What were the top songs for the past 10 years and their respective artists?
@@ -46,6 +46,8 @@ order by count DESC
 ```
 
 ICA-4/Chart/3.png
+
+Topic#2: Oscar Nominees
 
 ##Question #4
 Which actor or actress has been nominated for the most awards?
