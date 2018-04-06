@@ -13,4 +13,4 @@ group by year, song_name, artist
 order by year
 ```
 
-![ica4]（ICA-4/Chart/1.png）
+![ICA-4]（ICA-4/Chart/1.png）
