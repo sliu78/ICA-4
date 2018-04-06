@@ -28,6 +28,7 @@ from datasets.billboard_top_100_year_end
 where year >= 2008 and year_rank <= 20
 group by song_name, artist
 order by count DESC
+limit 10
 ```
 
 ICA-4/Chart/2.png
@@ -43,6 +44,7 @@ from datasets.billboard_top_100_year_end
 where year >= 1968 and year_rank <= 8
 group by song_name, artist
 order by count DESC
+limit 10
 ```
 
 ICA-4/Chart/3.png
@@ -58,6 +60,7 @@ count(nominee) as times
 from datasets.oscar_nominees
 GROUP by nominee 
 order by times DESC
+limit 10
 ```
 
 ICA-4/Chart/4.png
